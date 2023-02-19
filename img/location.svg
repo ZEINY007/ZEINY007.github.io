@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.947 45.153">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #75baff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="location-1-svgrepo-com" transform="translate(-2 -1)">
+    <path id="Path_2" data-name="Path 2" class="cls-1" d="M24.358,43.66c9.318-4.751,16.589-12.619,16.589-22.186A18.474,18.474,0,0,0,4,21.474C4,31.04,11.272,38.908,20.589,43.66A4.147,4.147,0,0,0,24.358,43.66Z"/>
+    <path id="Path_3" data-name="Path 3" class="cls-1" d="M22.855,14.928A6.928,6.928,0,1,1,15.928,8,6.927,6.927,0,0,1,22.855,14.928Z" transform="translate(6.546 6.546)"/>
+  </g>
+</svg>
