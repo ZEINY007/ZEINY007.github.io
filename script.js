@@ -1,3 +1,5 @@
+alert("The website is still under construction");
+
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
@@ -37,3 +39,17 @@ nav.find('a').on('click', function () {
   return false;
 });
 
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry)
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    } else {
+      entry.target.classList.remove('show');
+    }
+  });
+});
+
+const hiddenElements = document.querySelectorAll('.hiddenn');
+hiddenElements.forEach((el) => observer.observe(el));
